@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-2/static/css/main.3996a2fe.css",
-    "main.js": "/My-Portfolio-2/static/js/main.3aa15588.js",
+    "main.css": "/My-Portfolio-2/static/css/main.9c4a67db.css",
+    "main.js": "/My-Portfolio-2/static/js/main.357d60d5.js",
     "static/js/787.93bfac2d.chunk.js": "/My-Portfolio-2/static/js/787.93bfac2d.chunk.js",
     "static/media/blanchard.jpg": "/My-Portfolio-2/static/media/blanchard.12e12912acfc2da2a1c7.jpg",
+    "static/media/rumtibet.png": "/My-Portfolio-2/static/media/rumtibet.aab7756b6cede9f7934a.png",
     "static/media/vk_marusya.jpg": "/My-Portfolio-2/static/media/vk_marusya.c80c344359667960dbd7.jpg",
     "static/media/meals_app.jpg": "/My-Portfolio-2/static/media/meals_app.1ef586d63fdf7f7a8002.jpg",
+    "static/media/super_print.png": "/My-Portfolio-2/static/media/super_print.485f1e00222e572d532f.png",
     "static/media/lagoona.jpg": "/My-Portfolio-2/static/media/lagoona.db412e2562dcf977093e.jpg",
+    "static/media/blesk161.png": "/My-Portfolio-2/static/media/blesk161.23d01a18b875eccba6fb.png",
+    "static/media/lapki_vet.png": "/My-Portfolio-2/static/media/lapki_vet.1fb93e261ab508dd8d14.png",
     "static/media/foodi.jpg": "/My-Portfolio-2/static/media/foodi.c1a7353bc92b596ab252.jpg",
+    "static/media/darex_hose.png": "/My-Portfolio-2/static/media/darex_hose.8fa8ddf490f5b57d12db.png",
     "static/media/spotify_clone.jpg": "/My-Portfolio-2/static/media/spotify_clone.2fb9ef6763e108658547.jpg",
     "static/media/google_maps_app.jpg": "/My-Portfolio-2/static/media/google_maps_app.fb623276f7c4059dfc58.jpg",
+    "static/media/coca.png": "/My-Portfolio-2/static/media/coca.81bf516c6f8a88c0e584.png",
     "static/media/realtime_weather_app.jpg": "/My-Portfolio-2/static/media/realtime_weather_app.ee0b1b409334db7b990d.jpg",
     "static/media/dashboard.jpg": "/My-Portfolio-2/static/media/dashboard.53121250b6ac721af434.jpg",
     "static/media/crm.jpg": "/My-Portfolio-2/static/media/crm.25a9b1ec1501063a8d28.jpg",
@@ -21,12 +27,12 @@
     "static/media/vk.svg": "/My-Portfolio-2/static/media/vk.ffb489eeac4ab842395ffb315910ea7f.svg",
     "static/media/twitter.svg": "/My-Portfolio-2/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
     "index.html": "/My-Portfolio-2/index.html",
-    "main.3996a2fe.css.map": "/My-Portfolio-2/static/css/main.3996a2fe.css.map",
-    "main.3aa15588.js.map": "/My-Portfolio-2/static/js/main.3aa15588.js.map",
+    "main.9c4a67db.css.map": "/My-Portfolio-2/static/css/main.9c4a67db.css.map",
+    "main.357d60d5.js.map": "/My-Portfolio-2/static/js/main.357d60d5.js.map",
     "787.93bfac2d.chunk.js.map": "/My-Portfolio-2/static/js/787.93bfac2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3996a2fe.css",
-    "static/js/main.3aa15588.js"
+    "static/css/main.9c4a67db.css",
+    "static/js/main.357d60d5.js"
   ]
 }
