@@ -4,8 +4,8 @@ import {projects} from "./../helpers/projectsList"
 import BtnLiveSite from "../components/btnLiveSite/btnLiveSite";
 
 const Project = () => {
-	const {id} = useParams();
-	const project = projects[id];
+	const id = Number(window.location.href.replace("http://localhost:3000/project/", ""));
+	const project = projects.filter(project => project.id === id)[0];
 	
     return (
 		<main className="section">

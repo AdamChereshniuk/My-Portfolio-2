@@ -163,7 +163,6 @@ body {
 .projects {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	column-gap: 30px;
 	row-gap: 30px;
 }
@@ -203,6 +202,29 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 24px;
+}
+
+/* Tabs */
+
+.tabs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16x;
+	margin-bottom: 48px;
+}
+
+.tab {
+	display: flex;
+	justify-content: center;
+	padding: 12px 30px;
+	cursor: pointer;
+}
+
+.tab.active {
+	background-color: #5c62ec;
+	border-radius: 30px;
+	color: #fff;
 }
 
 /* Content list */
