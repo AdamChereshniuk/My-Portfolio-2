@@ -4,7 +4,7 @@ import {projects} from "./../helpers/projectsList"
 import BtnLiveSite from "../components/btnLiveSite/btnLiveSite";
 
 const Project = () => {
-	const id = Number(window.location.href.replace(`${window.location.origin}/project/`, ""));
+	const id = Number(window.location.pathname.replace("/project/", ""));
 	const project = projects.filter(project => project.id === id)[0];
 	
     return (
