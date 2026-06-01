@@ -46,6 +46,18 @@ import blesk161Big from "./../img/projects/blesk161.png";
 import coca from "./../img/projects/coca.png";
 import cocaBig from "./../img/projects/coca.png";
 
+import cheffest from "./../img/projects/cheffest.png";
+import cheffestBig from "./../img/projects/cheffest.png";
+
+import autolaw from "./../img/projects/autolaw.png";
+import autolawBig from "./../img/projects/autolaw.png";
+
+import sos from "./../img/projects/sos.png";
+import sosBig from "./../img/projects/sos.png";
+
+import fromboard_delivery from "./../img/projects/fromboard-delivery.png";
+import fromboard_deliveryBig from "./../img/projects/fromboard-delivery.png";
+
 const projects = [
 	{
 		id: 1,
@@ -199,6 +211,42 @@ const projects = [
 		img: coca,
 		imgBig: cocaBig,
 		liveSiteLink: "https://adamchereshniuk.tilda.ws/coca",
+	},
+	{
+		id: 17,
+		title: "Cheffest",
+		skills: "Tilda, Zero Block",
+		tab: "Tilda",
+		img: cheffest,
+		imgBig: cheffestBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/cheffest",
+	},
+	{
+		id: 18,
+		title: "Автоюрист",
+		skills: "Tilda, Zero Block",
+		tab: "Tilda",
+		img: autolaw,
+		imgBig: autolawBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/autolaw",
+	},
+	{
+		id: 19,
+		title: "SOS",
+		skills: "Tilda, Zero Block",
+		tab: "Tilda",
+		img: sos,
+		imgBig: sosBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/sos",
+	},
+	{
+		id: 20,
+		title: "FromBoard Delivery",
+		skills: "Tilda, Zero Block",
+		tab: "Tilda",
+		img: fromboard_delivery,
+		imgBig: fromboard_deliveryBig,
+		liveSiteLink: "https://adamchereshniuk.tilda.ws/fromboard-delivery",
 	},
 ];
 
