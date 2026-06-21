@@ -3,6 +3,7 @@ import {projects} from "./../helpers/projectsList";
 import { useState } from 'react';
 
 const Projects = () => {
+	document.title = "Проекты";
 	const [currentTab, setCurrentTab] = useState("htmlCssJs");
 	const htmlCssJsProjects = projects.filter(project => project.tab === "HTML & CSS" || project.tab === "JavaScript");
 	const reactVueProjects = projects.filter(project => project.tab === "ReactJS" || project.tab === "VueJS");
@@ -12,7 +13,7 @@ const Projects = () => {
 	return (
 		<main className="section">
 			<div className="container">
-				<h2 className="title-1">Projects</h2>
+				<h2 className="title-1">Проекты</h2>
 				<ul className="tabs">
 					<li className={`tab ${currentTab === "htmlCssJs" && "active"}`} onClick={() => setCurrentTab("htmlCssJs")}>HTML & CSS & JS</li>
 					<li className={`tab ${currentTab === "reactVue" && "active"}`} onClick={() => setCurrentTab("reactVue")}>ReactJS & VueJS</li>

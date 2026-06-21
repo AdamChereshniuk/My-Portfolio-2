@@ -24,28 +24,28 @@ const Navbar = () => {
 									isActive ? activeLink : normalLink
 								}
 							>
-								Home
+								Главная
 							</NavLink>
 						</li>
 
 						<li className="nav-list__item">
 							<NavLink
-								to="/projects"
+								to="/My-Portfolio-2/projects"
 								className={({ isActive }) =>
 									isActive ? activeLink : normalLink
 								}
 							>
-								Projects
+								Проекты
 							</NavLink>
 						</li>
 						<li className="nav-list__item">
 							<NavLink
-								to="/contacts"
+								to="/My-Portfolio-2/contacts"
 								className={({ isActive }) =>
 									isActive ? activeLink : normalLink
 								}
 							>
-								Contacts
+								Контакты
 							</NavLink>
 						</li>
 					</ul>

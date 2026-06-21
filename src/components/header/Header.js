@@ -4,21 +4,18 @@ import "./style.css";
 const Header = () => {
     return (
 		<header className="header">
-			<div className="header__wrapper">
+			<div className="container">
 				<h1 className="header__title">
-					<strong>
-						Hi, my name is <em>Adam</em>
-					</strong>
-					<br />a frontend developer
+					<strong>Привет! Меня зовут <em>Адам</em>, я Frontend-разработчик.</strong>
 				</h1>
 				<div className="header__text">
-					<p>with passion for learning and creating.</p>
+					<p>Создаю не просто красивые лендинги, а сайты, которые приносят результат.</p>
 				</div>
 				<NavLink
-					to="/projects"
+					to="/My-Portfolio-2/projects"
 					className="btn"
 				>
-					View Projects
+					Посмотреть проекты
 				</NavLink>
 			</div>
 		</header>

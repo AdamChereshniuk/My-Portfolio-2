@@ -62,6 +62,7 @@ const projects = [
 	{
 		id: 1,
 		title: "Lagoona",
+		description: "Одностраничный сайт туристической компании Lagoona.",
 		skills: "HTML, CSS",
 		tab: "HTML & CSS",
 		img: lagoona,
@@ -72,6 +73,7 @@ const projects = [
 	{
 		id: 2,
 		title: "VK Marusya",
+		description: "Многостраничный сайт с фильмами.",
 		skills: "ReactJS, Typescript, Redux",
 		tab: "ReactJS",
 		img: vk_marusya,
@@ -82,6 +84,7 @@ const projects = [
 	{
 		id: 3,
 		title: "Realtime Weather App",
+		description: "Одностраничное приложение для просмтора погоды по городам с реальными данными.",
 		skills: "JavaScript, API",
 		tab: "JavaScript",
 		img: realtime_weather_app,
@@ -92,6 +95,7 @@ const projects = [
 	{
 		id: 4,
 		title: "CRM",
+		description: "CRM-система с возможностью поиска и сортировки клиентов.",
 		skills: "JavaScript",
 		tab: "JavaScript",
 		img: crm,
@@ -102,6 +106,7 @@ const projects = [
 	{
 		id: 5,
 		title: "Blanchard",
+		description: "Одностраничный сайт картинной галереи.",
 		skills: "HTML, CSS, Figma",
 		tab: "HTML & CSS",
 		img: blanchard,
@@ -112,6 +117,7 @@ const projects = [
 	{
 		id: 6,
 		title: "Spotify 2.0",
+		description: "Одностраничный сайт-аналог Spotify.",
 		skills: "ReactJS, MobX, Typescript, Vite, Sass",
 		tab: "ReactJS",
 		img: spotify_clone,
@@ -122,6 +128,7 @@ const projects = [
 	{
 		id: 7,
 		title: "Dashboard",
+		description: "Одностраничный сайт-дашборд со статичными данными.",
 		skills: "VueJS, Vite, ChartJS, Vue-chartjs",
 		tab: "VueJS",
 		img: dashboard,
@@ -132,6 +139,7 @@ const projects = [
 	{
 		id: 8,
 		title: "Meals App",
+		description: "Одностраничный сайт для поиска блюд по названию, первой букве и ингредиентам.",
 		skills: "ReactJS, Redux, TypeScript, Vite, Tailwind CSS",
 		tab: "ReactJS",
 		img: meals_app,
@@ -142,6 +150,7 @@ const projects = [
 	{
 		id: 9,
 		title: "Google Maps App",
+		description: "Одностраничный сайт с Google-картой.",
 		skills: "VueJS, Vite, Bootstrap, Google Maps API",
 		tab: "VueJS",
 		img: google_maps_app,
@@ -152,6 +161,7 @@ const projects = [
 	{
 		id: 10,
 		title: "Foodi",
+		description: "Одностраничный сайт ресторана Foodi.",
 		skills: "WordPress, Elementor",
 		tab: "WordPress",
 		img: foodi,
@@ -161,6 +171,7 @@ const projects = [
 	{
 		id: 11,
 		title: "SuperPrint",
+		description: "Многостраничный сайт магазина одежды и аксессуаров.",
 		skills: "WordPress, WooCommerce",
 		tab: "WordPress",
 		img: super_print,
@@ -170,6 +181,7 @@ const projects = [
 	{
 		id: 12,
 		title: "LapkiVet",
+		description: "Одностраничный сайт ветклиники.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: lapki_vet,
@@ -179,6 +191,7 @@ const projects = [
 	{
 		id: 13,
 		title: "РумТибет",
+		description: "Одностраничный сайт компании по подбору туров для путешествий в горы.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: rumtibet,
@@ -188,6 +201,7 @@ const projects = [
 	{
 		id: 14,
 		title: "Darex House",
+		description: "Одностраничный сайт строительной компании.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: darex_house,
@@ -197,6 +211,7 @@ const projects = [
 	{
 		id: 15,
 		title: "Блеск161",
+		description: "Одностраничный сайт клининговой компании.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: blesk161,
@@ -206,6 +221,7 @@ const projects = [
 	{
 		id: 16,
 		title: "Coca",
+		description: "Многостраничный сайт маркетинговой компании.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: coca,
@@ -215,6 +231,7 @@ const projects = [
 	{
 		id: 17,
 		title: "Cheffest",
+		description: "Одностраничный сайт фастфуд-ресторана.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: cheffest,
@@ -224,6 +241,7 @@ const projects = [
 	{
 		id: 18,
 		title: "Автоюрист",
+		description: "Одностраничный сайт юридической компании.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: autolaw,
@@ -233,6 +251,7 @@ const projects = [
 	{
 		id: 19,
 		title: "SOS",
+		description: "Одностраничный сайт игровой студии.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: sos,
@@ -242,6 +261,7 @@ const projects = [
 	{
 		id: 20,
 		title: "FromBoard Delivery",
+		description: "Одностраничный сайт компании по доставке вещей.",
 		skills: "Tilda, Zero Block",
 		tab: "Tilda",
 		img: fromboard_delivery,

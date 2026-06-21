@@ -1,6 +1,8 @@
 import Header from './../components/header/Header'
 
 const Home = () => {
+	document.title = "Главная";
+
     return (
 		<>
 			<Header />
@@ -11,7 +13,7 @@ const Home = () => {
 							<h2 className="title-2">Frontend</h2>
 							<p>
 								HTML, CSS, SASS & LESS, JavaScript, TypeScript, ReactJS, Vite, Redux,
-								NPM, BootStrap, GitHub, Figma
+								NPM, BootStrap, GitHub, Figma, Tilda, WordPress
 							</p>
 						</li>
 						<li className="content-list__item">

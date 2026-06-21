@@ -1,11 +1,9 @@
 /* Header */
 .header {
-	padding: 40px 0;
-	min-height: 695px;
+	padding: 160px 0;
+	/* min-height: 695px; */
 
 	display: flex;
-	justify-content: center;
-	align-items: center;
 
 	background-color: var(--header-bg);
 	background-image: url('./../../img/header-bg.png');
@@ -14,12 +12,6 @@
 	background-position: center center;
 
 	color: var(--header-text);
-	text-align: center;
-}
-
-.header__wrapper {
-	padding: 0 15px;
-	max-width: 660px;
 }
 
 .header__title {
@@ -27,6 +19,8 @@
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.4;
+	width: 100%;
+	max-width: 900px;
 }
 
 .header__title strong {
