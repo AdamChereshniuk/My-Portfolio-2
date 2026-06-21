@@ -1,6 +1,6 @@
 import "./styles/main.css";
 
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar"
 import Footer from "./components/footer/Footer";
@@ -14,7 +14,7 @@ import ScrollToTop from "./utils/scrollToTop"
 function App() {
   return (
 	<div className="App">
-		<BrowserRouter basename={import.meta.url.basename}>
+		<Router>
 			<ScrollToTop />
 			<Navbar />
 			<Routes>
@@ -24,7 +24,7 @@ function App() {
 				<Route path="/My-Portfolio-2/contacts" element={<Contacts />} />
 			</Routes>
 			<Footer />
-		</BrowserRouter>
+		</Router>
 	</div>
   );
 }
