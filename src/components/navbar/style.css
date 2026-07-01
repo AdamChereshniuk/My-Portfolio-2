@@ -1,5 +1,4 @@
 /* Nav */
-
 .nav {
 	padding: 20px 0;
 	background-color: var(--nav-bg);
@@ -51,7 +50,7 @@
 }
 
 .nav-list__link--active::before {
-	content: '';
+	content: "";
 
 	position: absolute;
 	left: 0;

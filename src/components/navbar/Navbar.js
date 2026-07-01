@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom';
-import BtnDarkMode from '../btnDarkMode/BtnDarkMode';
-import './style.css';
+import { NavLink } from "react-router-dom";
+import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
+import "./style.css";
 
 const Navbar = () => {
-	const activeLink = 'nav-list__link nav-list__link--active';
-	const normalLink = 'nav-list__link';
+	const activeLink = "nav-list__link nav-list__link--active";
+	const normalLink = "nav-list__link";
 
 	return (
 		<nav className="nav">
@@ -18,35 +18,16 @@ const Navbar = () => {
 
 					<ul className="nav-list">
 						<li className="nav-list__item">
-							<NavLink
-								to="/My-Portfolio-2/"
-								className={({ isActive }) =>
-									isActive ? activeLink : normalLink
-								}
-							>
+							<NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/My-Portfolio-2/">
 								Главная
 							</NavLink>
 						</li>
 
 						<li className="nav-list__item">
-							<NavLink
-								to="/My-Portfolio-2/projects"
-								className={({ isActive }) =>
-									isActive ? activeLink : normalLink
-								}
-							>
-								Проекты
-							</NavLink>
+							<NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/My-Portfolio-2/projects">Проекты</NavLink>
 						</li>
 						<li className="nav-list__item">
-							<NavLink
-								to="/My-Portfolio-2/contacts"
-								className={({ isActive }) =>
-									isActive ? activeLink : normalLink
-								}
-							>
-								Контакты
-							</NavLink>
+							<NavLink className={({ isActive }) => isActive ? activeLink : normalLink} to="/My-Portfolio-2/contacts">Контакты</NavLink>
 						</li>
 					</ul>
 				</div>

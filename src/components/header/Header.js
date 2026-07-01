@@ -11,15 +11,10 @@ const Header = () => {
 				<div className="header__text">
 					<p>Создаю не просто красивые лендинги, а сайты, которые приносят результат.</p>
 				</div>
-				<NavLink
-					to="/My-Portfolio-2/projects"
-					className="btn"
-				>
-					Посмотреть проекты
-				</NavLink>
+				<NavLink className="btn" to="/My-Portfolio-2/projects">Посмотреть проекты</NavLink>
 			</div>
 		</header>
 	);
-}
+};
 
 export default Header;

@@ -1,9 +1,9 @@
-import gitHubIcon from '../btnGitHub/gitHub-black.svg';
+import gitHubIcon from "../btnGitHub/gitHub-black.svg";
 
 const BtnLiveSite = ({ link }) => {
     return (
         <a href={link} target="_blank" rel="noreferrer" className="btn-outline">
-            <img src={gitHubIcon} alt="" />
+            <img src={gitHubIcon} alt="Live Site" />
             Посмотреть сайт
         </a>
     );

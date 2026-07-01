@@ -1,6 +1,5 @@
-import {useParams} from "react-router-dom";
+import { projects } from "./../helpers/projectsList";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
-import {projects} from "./../helpers/projectsList"
 import BtnLiveSite from "../components/btnLiveSite/btnLiveSite";
 
 const Project = () => {
@@ -20,13 +19,7 @@ const Project = () => {
 						</div>
 					)}
 
-					<img
-						src={project.imgBig}
-						alt={project.title}
-						className="project-details__cover"
-					/>
-
-					
+					<img className="project-details__cover" src={project.imgBig} alt={project.title} />
 
 					<div className="project-details__btns">
 						{project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}

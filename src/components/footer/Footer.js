@@ -1,8 +1,7 @@
+import twitter from "./../../img/icons/twitter.svg";
+import gitHub from "./../../img/icons/gitHub.svg";
+import vk from "./../../img/icons/vk.svg";
 import "./style.css";
-
-import vk from './../../img/icons/vk.svg';
-import twitter from './../../img/icons/twitter.svg';
-import gitHub from './../../img/icons/gitHub.svg';
 
 const Footer = () => {
     return (
@@ -33,6 +32,6 @@ const Footer = () => {
 			</div>
 		</footer>
 	);
-}
+};
 
 export default Footer;
